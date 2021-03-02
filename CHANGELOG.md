@@ -5,6 +5,11 @@
 - Terraform version from 0.14.6 to 0.14.7
   ([PR #107](https://github.com/cycloidio/inframap/pull/107))
 
+### Fixed
+
+- Multiple modules with same resource name now work correctly using full module name `module.NAME.aws_insatance.NAME2`
+  ([Issue #103](https://github.com/cycloidio/inframap/issues/103))
+
 ## [0.5.2] _2021-02-09_
 
 ### Changed
